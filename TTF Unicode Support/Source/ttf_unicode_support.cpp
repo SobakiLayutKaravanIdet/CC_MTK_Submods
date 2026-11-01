@@ -307,7 +307,7 @@ static size_t MapUtf8ContinuationByte(char* text, size_t length,
 
 static bool IsGameColorCode(unsigned char c)
 {
-    return c == 'W' || c == 'B' || c == 'G' || c == 'R' || c == 'b' || c == 'g' || c == 'Y';
+    return c == 'W' || c == 'B' || c == 'G' || c == 'R' || c == 'b' || c == 'g' || c == 'Y' || c == '!';
 }
 
 static bool HasGameColorMarker(const char* text, size_t length)
@@ -851,6 +851,7 @@ static DWORD GameColor(unsigned char code, DWORD fallback)
     case 'b': return 0xFF000000;
     case 'g': return 0xFFB0B0B0;
     case 'Y': return 0xFFFFBD00;
+    case '!': return fallback;
     default: return fallback;
     }
 }

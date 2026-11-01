@@ -1,0 +1,14 @@
+# Release staging package: upload manually through GitHub Releases
+/TTF Unicode Support/TTF Unicode Support build/
+
+# Build and IDE output
+**/.build/
+**/obj/
+.vs/
+*.obj
+*.pdb
+*.exp
+*.lib
+*.dll
+*.bak
+__pycache__/

@@ -1,0 +1,33 @@
+#include <windows.h>
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,2,0,0
+ PRODUCTVERSION 0,2,0,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0
+ FILEOS VOS_NT_WINDOWS32
+ FILETYPE VFT_DLL
+ FILESUBTYPE 0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "CompanyName", "CreatineCore submod\0"
+      VALUE "FileDescription", "ttf_unicode_support\0"
+      VALUE "FileVersion", "0.2\0"
+      VALUE "InternalName", "ttf_unicode_support\0"
+      VALUE "OriginalFilename", "ttf_unicode_support.dll\0"
+      VALUE "ProductName", "ttf_unicode_support\0"
+      VALUE "ProductVersion", "0.2\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0409, 1200
+  END
+END
+
+
+
+

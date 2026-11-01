@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Release|Win32"><Configuration>Release</Configuration><Platform>Win32</Platform></ProjectConfiguration></ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="V2ModAPI.h" /><ClInclude Include="map_atlas_texture.h" /><ClInclude Include="map_call_patch.h" />
+    <ClInclude Include="map_country_bridge.h" /><ClInclude Include="map_country_hooks.h" /><ClInclude Include="map_country_pipeline.h" />
+    <ClInclude Include="map_country_resources.h" /><ClInclude Include="map_label_transaction.h" /><ClInclude Include="map_province_ttf_hooks.h" />
+    <ClInclude Include="map_ttf_atlas.h" /><ClInclude Include="main_mapfont_settings.h" /><ClInclude Include="gui_mapfont_settings.h" />
+  </ItemGroup>
+  <ItemGroup><ClCompile Include="ttf_unicode_support.cpp" /><ResourceCompile Include="ttf_unicode_support.rc" /></ItemGroup>
+  <PropertyGroup Label="Globals"><VCProjectVersion>18.0</VCProjectVersion><Keyword>Win32Proj</Keyword><ProjectGuid>{9F0C6E5D-0C3B-4E8E-A12C-7AE6C78C7021}</ProjectGuid><RootNamespace>ttf_unicode_support</RootNamespace><WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration"><ConfigurationType>DynamicLibrary</ConfigurationType><UseDebugLibraries>false</UseDebugLibraries><PlatformToolset>v145</PlatformToolset><CharacterSet>Unicode</CharacterSet></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup><OutDir>$(ProjectDir).build\bin\</OutDir><IntDir>$(ProjectDir).build\obj\</IntDir><TargetName>ttf_unicode_support</TargetName></PropertyGroup>
+  <ItemDefinitionGroup><ClCompile><WarningLevel>Level3</WarningLevel><SDLCheck>true</SDLCheck><PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions><ConformanceMode>true</ConformanceMode><LanguageStandard>stdcpp20</LanguageStandard><RuntimeLibrary>MultiThreaded</RuntimeLibrary><AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories></ClCompile><Link><SubSystem>Windows</SubSystem><GenerateDebugInformation>false</GenerateDebugInformation><EnableUAC>false</EnableUAC></Link></ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

@@ -108,8 +108,8 @@ Credits
 -------
 
 - Created by $COUNTRY_ADJ$
-Check out for new releases (and maybe even new submods) on GitHub
-https://github.com/SobakiLayutKaravanIdet/CC_MTK_Submods
+Check out for new releases (and maybe even new submods) on ModDB
+https://www.moddb.com/members/country-adj
 
 - Based on CreatineCore Modding Toolkit by balticšprott
 Discord Server of CC MTK: https://discord.gg/kkypeQukWF

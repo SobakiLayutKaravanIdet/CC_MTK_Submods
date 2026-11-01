@@ -1,0 +1,24 @@
+# TTF Unicode Support settings
+main_mapfont = {
+    active = no
+    user_ttf_file = "YOUR_FONT.ttf"
+    reserve_font_file = none
+    color = 0 0 0
+    height = 56
+    small_height = 22
+}
+
+provincename_mapfont = {
+    active = no
+    user_ttf_file = "YOUR_FONT.ttf"
+    color = 0 0 0
+}
+
+# Add gui_font blocks for GUI fonts, then set gui_font_name in GUI files.
+# gui_font = {
+#     user_ttf_file = "YOUR_FONT.ttf"
+#     gui_font_name = "my_ttf_font"
+#     color = 0 0 0
+#     height = 18
+#     anti_aliasing = no
+# }
